@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "react-cart",
+    title: `Discount Western Wear`,
+    description: `TODO Meta`,
+    author: `Habanero Studios`,
+    siteUrl: process.env.SITE_URL || "http://localhost:8000",
   },
   plugins: [
     {
@@ -9,6 +12,8 @@ module.exports = {
         url: "http://reactcart.local/graphql",
       },
     },
+    "gatsby-plugin-layout",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",

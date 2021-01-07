@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic styling for content created in Wordpress WYSIWG editor */
+.wp-wrapper h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a202c;
+  margin-top: 0.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.wp-content h2,
+h3,
+h4,
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.wp-content p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #a0aec0;
+  margin-bottom: 2rem;
+}
