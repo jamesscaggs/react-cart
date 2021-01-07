@@ -1,13 +1,11 @@
-import * as React from "react";
+import * as React from "react"
 
 // markup
-const IndexPage = () => {
+export default function IndexPage() {
   return (
     <main>
       <title>Home Page</title>
-      <h1 className='text-red-800 text-3xl'>Testing</h1>
+      <h2 className="text-blue-800 text-3xl">Testing</h2>
     </main>
-  );
-};
-
-export default IndexPage;
+  )
+}

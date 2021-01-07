@@ -19,7 +19,7 @@ const PageTemplate = ({ data }) => {
   // console.log(page.pageSectionFields)
   return (
     <>
-      <SEO title={`${page.title}`} />
+      {/* <SEO title={`${page.title}`} /> */}
       <div className="py-6 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
         <div className="prose max-w-max-content lg:max-w-5xl mx-auto">
           <article className="">
