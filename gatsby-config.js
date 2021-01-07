@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress-experimental",
       options: {
-        url: "http://wpreactcartdev.local/graphql",
+        url: "http://reactcart.local/graphql",
       },
     },
     "gatsby-plugin-sharp",
